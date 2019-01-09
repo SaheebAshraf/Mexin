@@ -1,0 +1,736 @@
+<!DOCTYPE doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Untitled Document
+            </title>
+            <link href="assets/css/reset.css" rel="stylesheet">
+                <link href="assets/css/style.css" rel="stylesheet">
+                    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+                        <script src="assets/js/jssor.slider-27.5.0.min.js">
+                        </script>
+                        <script type="text/javascript">
+                            jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:-1,d:1,o:-0.7}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 3000;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+                        </script>
+                    </link>
+                </link>
+            </link>
+        </meta>
+    </head>
+    <body>
+        <header class="clearfix">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                FORM
+                            </a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">
+                                TERMS
+                            </a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a class="fb" href="https://www.facebook.com/">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="db" href="https://dribbble.com/session/new">
+                                <i class="fa fa-dribbble">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="vm" href="https://vimeo.com/join">
+                                <i class="fa fa-vimeo">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="gg" href="https://www.google.com/">
+                                <i class="fa fa-google">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tt" href="https://twitter.com/">
+                                <i class="fa fa-twitter">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!----social----->
+            </div>
+            <!----container----->
+        </header>
+        <hr>
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/img/m.jpg">
+                    </img>
+                </div>
+                <!----logo----->
+                <div class="search">
+                    <input type="text">
+                    </input>
+                </div>
+                <!----search----->
+                <div class="nav1">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages.html">
+                                PAGES
+                            </a>
+                        </li>
+                        <li>
+                            <a href="feature.html">
+                                FREATURES
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog.html">
+                                BLOG
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                WORK
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!----nav1----->
+            </div>
+            <!----container----->
+            <div class="slider clearfix">
+                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+                    <!-- Loading Screen -->
+                    <div class="jssorl-009-spin" data-u="loading" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                        <img src="img/spin.svg" style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"/>
+                    </div>
+                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+                        <div>
+                            <img data-u="image" src="assets/img/Untitled-1.gif"/>
+                            <div data-t="0" data-ts="preserve-3d" data-u="caption" style="position:absolute;top:120px;left:75px;width:470px;height:220px;">
+                                <img src="img/c-phone-horizontal.png" style="position:absolute;top:0px;left:0px;width:470px;height:220px;max-width:470px;"/>
+                                <div data-ts="preserve-3d" style="position:absolute;top:4px;left:45px;width:379px;height:213px;overflow:hidden;">
+                                    <img data-t="1" data-u="caption" src="img/c-slide-1.jpg" style="position:absolute;top:0px;left:0px;width:379px;height:213px;max-width:379px;"/>
+                                    <img data-t="2" data-u="caption" src="img/c-slide-3.jpg" style="position:absolute;top:0px;left:379px;width:379px;height:213px;max-width:379px;"/>
+                                </div>
+                                <img src="img/c-navigator-horizontal.png" style="position:absolute;top:4px;left:45px;width:379px;height:213px;max-width:379px;"/>
+                                <img data-t="3" data-u="caption" src="img/hand.png" style="position:absolute;top:476px;left:454px;width:63px;height:77px;max-width:63px;"/>
+                            </div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="assets/img/Untitled-1.gif"/>
+                        </div>
+                        <div>
+                            <img data-u="image" src="assets/img/Untitled-1.gif"/>
+                            <div style="position:absolute;top:30px;left:30px;width:480px;height:130px;font-family:'Roboto Condensed',sans-serif;font-size:40px;color:#000000;line-height:1.5;padding:5px 5px 5px 5px;box-sizing:border-box;background-color:rgba(255,188,5,0.8);background-clip:padding-box;">
+                                TOUCH SWIPE
+                                <br/>
+                                RESPONSIVE SLIDER
+                            </div>
+                            <div style="position:absolute;top:300px;left:30px;width:480px;height:130px;font-family:'Roboto Condensed',sans-serif;font-size:30px;color:#000000;line-height:1.27;padding:5px 5px 5px 5px;box-sizing:border-box;background-color:rgba(255,188,5,0.8);background-clip:padding-box;">
+                                Build your slider with anything, includes image, svg, text, html, photo, picture content
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bullet Navigator -->
+                    <div class="jssorb032" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75" data-u="navigator" style="position:absolute;bottom:12px;right:12px;">
+                        <div class="i" data-u="prototype" style="width:16px;height:16px;">
+                            <svg style="position:absolute;top:0;left:0;width:100%;height:100%;" viewbox="0 0 16000 16000">
+                                <circle class="b" cx="8000" cy="8000" r="5800">
+                                </circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Arrow Navigator -->
+                    <div class="jssora051" data-autocenter="2" data-scale="0.75" data-scale-left="0.75" data-u="arrowleft" style="width:65px;height:65px;top:0px;left:25px;">
+                        <svg style="position:absolute;top:0;left:0;width:100%;height:100%;" viewbox="0 0 16000 16000">
+                            <polyline class="a" points="11040,1920 4960,8000 11040,14080 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <div class="jssora051" data-autocenter="2" data-scale="0.75" data-scale-right="0.75" data-u="arrowright" style="width:65px;height:65px;top:0px;right:25px;">
+                        <svg style="position:absolute;top:0;left:0;width:100%;height:100%;" viewbox="0 0 16000 16000">
+                            <polyline class="a" points="4960,1920 11040,8000 4960,14080 ">
+                            </polyline>
+                        </svg>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    jssor_1_slider_init();
+                </script>
+                <!-- #endregion Jssor Slider End -->
+                <section class="clearfix">
+                    <div class="container clearfix">
+                        <div class="one-third web">
+                            <i class="fa fa-cube">
+                            </i>
+                            <h1>
+                                Web Hosting
+                            </h1>
+                            <p>
+                                Innovative design always develops in tandem with
+                                <br>
+                                    innovative technology, and can never be an end
+                                    <br>
+                                        in itself. lorem ipsum dolor
+                                    </br>
+                                </br>
+                            </p>
+                        </div>
+                        <!----web----->
+                        <div class="one-third web">
+                            <i class="fa fa-tv">
+                            </i>
+                            <h1>
+                                Web Design
+                            </h1>
+                            <p>
+                                Innovative design always develops in tandem with
+                                <br>
+                                    innovative technology, and can never be an end
+                                    <br>
+                                        in itself. lorem ipsum dolor
+                                    </br>
+                                </br>
+                            </p>
+                        </div>
+                        <!----web----->
+                        <div class="one-third web">
+                            <i class="fa fa-globe">
+                            </i>
+                            <h1>
+                                Server Management
+                            </h1>
+                            <p>
+                                Innovative design always develops in tandem with
+                                <br>
+                                    innovative technology, and can never be an end
+                                    <br>
+                                        in itself. lorem ipsum dolor
+                                    </br>
+                                </br>
+                            </p>
+                        </div>
+                        <!----web----->
+                    </div>
+                    <!----container----->
+                    <div class="container">
+                        <hr>
+                            <div class="recent">
+                                <h1>
+                                    Recent Works
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    <br>
+                                        consectetur adispiscing elit
+                                        <br>
+                                            Ae nean nisl orci
+                                        </br>
+                                    </br>
+                                </p>
+                                <a href="#">
+                                    See All >
+                                </a>
+                                <hr>
+                                    <div class="categories">
+                                        <h1>
+                                            Categories
+                                        </h1>
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    Design
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Print
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Video
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Other
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!----categories----->
+                                    <div class="categories">
+                                        <h1>
+                                            Archives
+                                        </h1>
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    May 2012 (2)
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    April 2012 (3)
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    March 2012 (5)
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Feburaray 2012 (1)
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!----categories----->
+                                </hr>
+                            </div>
+                            <!----recent----->
+                            <div class="recenthead clearfix">
+                                <div class="recent1">
+                                    <img src="assets/img/ajpg.jpg">
+                                        <h1>
+                                            Save the World
+                                        </h1>
+                                        <p>
+                                            10 May 2013 -
+                                            <span>
+                                                DESIGN, PRINT
+                                            </span>
+                                        </p>
+                                        <img src="assets/img/k.jpg">
+                                            <h1>
+                                                Spoilt for choice
+                                            </h1>
+                                            <p>
+                                                10 May 2013 -
+                                                <span>
+                                                    DESIGN, PRINT
+                                                </span>
+                                            </p>
+                                        </img>
+                                    </img>
+                                </div>
+                                <!----recent1----->
+                                <div class="recent1">
+                                    <img src="assets/img/special.jpg">
+                                        <h1>
+                                            Mall Admirer
+                                        </h1>
+                                        <p>
+                                            10 May 2013 -
+                                            <span>
+                                                DESIGN, VIDEO
+                                            </span>
+                                        </p>
+                                        <img src="assets/img/Untitled-2.jpg">
+                                            <h1>
+                                                Busy girl
+                                            </h1>
+                                            <p>
+                                                10 May 2013 -
+                                                <span>
+                                                    DESIGN, PRINT
+                                                </span>
+                                            </p>
+                                        </img>
+                                    </img>
+                                </div>
+                                <!----recent1----->
+                            </div>
+                            <!----recenthead----->
+                            <div class="container">
+                                <hr>
+                                </hr>
+                            </div>
+                            <div class="cleanhead clearfix">
+                                <div class="clean">
+                                    <button>
+                                        Purchase Now
+                                    </button>
+                                    <h1>
+                                        Clean, Flat, Modern & Responsive Template
+                                    </h1>
+                                    <p>
+                                        Minimal design helps viewers navigate through the design.
+                                    </p>
+                                    <hr>
+                                    </hr>
+                                </div>
+                                <!----clean----->
+                                <div class="clean1">
+                                    <img src="assets/img/22.gif">
+                                        <h1>
+                                            Only Use what is necessary
+                                        </h1>
+                                        <p>
+                                            Aliquam enim enim, pharetra in sodales at, interdum
+                                            <br>
+                                                sit amet dui. Nullam vuputate euismod urna non
+                                                <br>
+                                                    pharetra. Phasellus blandit mattis ipsum, ac laoreet
+                                                    <br>
+                                                        lorem lacinia et. Cras et ligula lubero.
+                                                    </br>
+                                                </br>
+                                            </br>
+                                        </p>
+                                        <span>
+                                            <a href="#">
+                                                Haretra in sodales atsen interdum >
+                                            </a>
+                                        </span>
+                                    </img>
+                                </div>
+                                <!----clean1----->
+                                <div class="clean2">
+                                    <img src="assets/img/ANN.gif">
+                                        <h1>
+                                            Clean and User friendly layouts
+                                        </h1>
+                                        <p>
+                                            Aliquam enim enim, pharetra in sodales at,
+                                            <br>
+                                                interdum sit amet dui. Nullam vulputate euismod
+                                                <br>
+                                                    urna non pharetra. Phasellus bland it mattis
+                                                    <br>
+                                                        ipsum, ac laoreet lorem lacinia et. Cras et ligula.
+                                                    </br>
+                                                </br>
+                                            </br>
+                                        </p>
+                                        <span>
+                                            <a href="#">
+                                                Haretra in sodales atsen interdum >
+                                            </a>
+                                        </span>
+                                    </img>
+                                </div>
+                                <!----clean2----->
+                            </div>
+                            <!----cleanhead----->
+                            <div class="latesthead clearfix">
+                                <div class="latest">
+                                    <h1>
+                                        LATEST FROM BLOG
+                                    </h1>
+                                </div>
+                                <!----latest----->
+                                <hr>
+                                    <div class="one-third latest1">
+                                        <img src="assets/img/a.gif">
+                                            <h1>
+                                                Job Seeking Out of Your Industry
+                                            </h1>
+                                            <span>
+                                                10 May 2013
+                                            </span>
+                                        </img>
+                                    </div>
+                                    <!----latest1----->
+                                    <div class="one-third latest1">
+                                        <img src="assets/img/b.gif">
+                                            <h1>
+                                                Magnifying Uses of Small Spaces
+                                            </h1>
+                                            <span>
+                                                10 May 2013
+                                            </span>
+                                        </img>
+                                    </div>
+                                    <!----latest1----->
+                                    <div class="one-third latest1">
+                                        <img src="assets/img/c.gif">
+                                            <h1>
+                                                What Your College Degree Will Be Worth
+                                            </h1>
+                                            <span>
+                                                10 May 2013
+                                            </span>
+                                        </img>
+                                    </div>
+                                    <!----latest1----->
+                                </hr>
+                            </div>
+                            <!----latesthead----->
+                            <div class="extra">
+                                <img src="assets/img/halBVf.jpg">
+                                    <h1 align="center">
+                                        QUOTE OF THE WEEK
+                                    </h1>
+                                    <p align="center">
+                                        "Care and accuracy in the design process show respect towards the consumer."
+                                        <br>
+                                            -John Smith
+                                            <span>
+                                                - Manager at Mexin
+                                            </span>
+                                        </br>
+                                    </p>
+                                </img>
+                            </div>
+                            <!----extra----->
+                        </hr>
+                    </div>
+                    <!----container----->
+                </section>
+                <footer class="clearfix">
+                    <div class="container clearfix">
+                        <div class="one-third contact">
+                            <h1>
+                                CONTACT INFORMATION
+                            </h1>
+                            <div class="map">
+                                <p>
+                                    <b>
+                                        Address:
+                                    </b>
+                                    No.28 - 63739 Street lorem ipsum City, Country
+                                </p>
+                                <p>
+                                    <b>
+                                        Phone:
+                                    </b>
+                                    <span>
+                                        <i class="fa fa-skype">
+                                        </i>
+                                        + 1 (234) 567 8901
+                                    </span>
+                                </p>
+                                <p>
+                                    <b>
+                                        Fax:
+                                    </b>
+                                    + 1 (234) 567 8901
+                                </p>
+                                <p>
+                                    <b>
+                                        Email:
+                                    </b>
+                                    support@yoursite.com
+                                </p>
+                            </div>
+                            <!----map----->
+                            <h1>
+                                STAY CONNECTED
+                            </h1>
+                            <div class="icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/">
+                                            <i class="fa fa-facebook">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://dribbble.com/session/new">
+                                            <i class="fa fa-dribbble">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.pinterest.com/">
+                                            <i class="fa fa-pinterest">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://vimeo.com/join">
+                                            <i class="fa fa-vimeo">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.google.com/">
+                                            <i class="fa fa-google">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/">
+                                            <i class="fa fa-twitter">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/">
+                                            <i class="fa fa-youtube">
+                                            </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!----icon----->
+                        </div>
+                        <!----contact----->
+                        <div class="one-third icon1">
+                            <h1>
+                                LATEST TWEET
+                            </h1>
+                            <div class="webnus">
+                                <i class="fa fa-twitter fa-5x">
+                                </i>
+                                <h2>
+                                    @webnus
+                                </h2>
+                            </div>
+                            <!----webnus----->
+                            <p>
+                                Check out this great #themeforest item
+                                <br>
+                                    'Florida - Premium Multipurpose
+                                    <br>
+                                        Responsive Theme'
+                                        <br>
+                                            http://t.co/IBJ0t9THgH
+                                        </br>
+                                    </br>
+                                </br>
+                            </p>
+                        </div>
+                        <!----icon1----->
+                        <div class="one-third icon2">
+                            <h1>
+                                FLICKR PHOTOSTREAM
+                            </h1>
+                            <img src="assets/img/1.gif">
+                                <img src="assets/img/2.gif">
+                                    <img src="assets/img/3.gif">
+                                        <img src="assets/img/4.gif">
+                                            <img src="assets/img/5.gif">
+                                                <img src="assets/img/6.gif">
+                                                    <img src="assets/img/7.gif">
+                                                        <img src="assets/img/8.gif">
+                                                            <img src="assets/img/9.gif">
+                                                                <img src="assets/img/10.gif">
+                                                                    <img src="assets/img/11.gif">
+                                                                        <img src="assets/img/12.gif">
+                                                                        </img>
+                                                                    </img>
+                                                                </img>
+                                                            </img>
+                                                        </img>
+                                                    </img>
+                                                </img>
+                                            </img>
+                                        </img>
+                                    </img>
+                                </img>
+                            </img>
+                        </div>
+                        <!----icon2----->
+                    </div>
+                    <!----container----->
+                <div class="co">    
+                    <hr>
+                    </div>
+                        <div class="container">
+                            <div class="final">
+                                <p>
+                                    © 2012. All Rights Reserved. Powered By
+                                    <span>
+                                        WordPress
+                                    </span>
+                                </p>
+                                <h1>
+                                    Mexin
+                                </h1>
+                            </div>
+                            <!----final----->
+                        </div>
+                        <!----container----->
+                    </hr>
+                </footer>
+            </div>
+        </hr>
+    </body>
+</html>
